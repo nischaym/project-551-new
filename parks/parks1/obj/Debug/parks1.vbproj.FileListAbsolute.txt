@@ -83,8 +83,6 @@ C:\Users\jenni\source\repos\parks\parks1\obj\Debug\parks1.xml
 C:\Users\jenni\source\repos\parks\parks1\obj\Debug\parks1.pdb
 C:\Users\jenni\source\repos\parks\parks1\bin\Business.dll
 C:\Users\jenni\source\repos\parks\parks1\bin\Models.dll
-C:\Users\jenni\source\repos\parks\parks1\bin\ParkDataAccess.dll
 C:\Users\jenni\source\repos\parks\parks1\bin\Business.pdb
 C:\Users\jenni\source\repos\parks\parks1\bin\Models.pdb
-C:\Users\jenni\source\repos\parks\parks1\bin\ParkDataAccess.pdb
 C:\Users\jenni\source\repos\parks\parks1\bin\Business.dll.config

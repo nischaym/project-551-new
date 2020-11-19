@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-
 namespace Business
 {
     public class ParksData
@@ -17,7 +16,7 @@ namespace Business
             DataSet parksDataSet = new DataSet();
 
             // 2nd Assignment - Get Parks from DB with Config in Web.config file
-            parksDataSet = ParkDA.GetParksWithoutDB();
+            // parksDataSet = ParkDA.GetParksWithoutDB();
 
 
 
@@ -27,8 +26,8 @@ namespace Business
             // From DB hardcoded connection string
             //parksDataSet = ParkDA.GetParksWithOutConfig();
 
-            // var parkService = new ParkNewRef.ParkServiceClient();
-            // parksDataSet = parkService.GetDataWithoutDB();
+            var parkService = new ParkNewRef.ParkServiceClient("BasicHttpBinding_IParkService");
+            parksDataSet = parkService.GetDataWithoutDB();
 
             if (parksDataSet.Tables.Count > 0)
             {
