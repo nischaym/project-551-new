@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="11710690-2d43-435f-90c2-5c5a69aa0d70" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55480/ParkService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ParkService.wsdl" MetadataType="Wsdl" ID="5d880b3b-17ab-4b81-9c64-fef4bbecfb98" SourceId="1" SourceUrl="http://localhost:55480/ParkService.svc?wsdl" />
+    <MetadataFile FileName="ParkService.xsd" MetadataType="Schema" ID="e0c44d8e-7dea-4de0-a42c-7f2e1abdcf92" SourceId="1" SourceUrl="http://localhost:55480/ParkService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ParkService.disco" MetadataType="Disco" ID="744c3c30-e0e0-4f03-9c82-1fdaeb2a4bee" SourceId="1" SourceUrl="http://localhost:55480/ParkService.svc?disco" />
+    <MetadataFile FileName="ParkService1.xsd" MetadataType="Schema" ID="9e479c72-1e31-4035-bdd5-f43700fbcada" SourceId="1" SourceUrl="http://localhost:55480/ParkService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ParkService2.xsd" MetadataType="Schema" ID="bd064010-23dd-4f2d-8d11-53342355261b" SourceId="1" SourceUrl="http://localhost:55480/ParkService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

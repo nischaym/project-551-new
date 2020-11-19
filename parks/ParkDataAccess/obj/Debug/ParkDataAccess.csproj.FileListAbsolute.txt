@@ -1,0 +1,6 @@
+C:\Users\jenni\source\repos\parks\ParkDataAccess\bin\Debug\ParkDataAccess.dll
+C:\Users\jenni\source\repos\parks\ParkDataAccess\bin\Debug\ParkDataAccess.pdb
+C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csprojAssemblyReference.cache
+C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.dll
+C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.pdb
