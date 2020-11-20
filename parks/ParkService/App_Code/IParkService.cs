@@ -15,6 +15,10 @@ public interface IParkService
 	[OperationContract]
 	DataSet GetDataWithoutDB();
 
-	// TODO: Add your service operations here
+    [OperationContract]
+    DataSet GetParksFromDBWithOutConfig();
+
+    [OperationContract]
+    DataSet GetParksFromDBWithConfig();
 }
 

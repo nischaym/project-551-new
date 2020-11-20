@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ParkNewRef\Reference.cs">
+    <Compile Include="Connected Services\ParksServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -66,32 +66,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Connected Services\ParkNewRef\ParkService.wsdl" />
-    <None Include="Connected Services\ParkNewRef\ParkService.xsd">
+    <None Include="Connected Services\ParksServiceReference\ParkService.wsdl" />
+    <None Include="Connected Services\ParksServiceReference\ParkService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ParkNewRef\ParkService1.xsd">
+    <None Include="Connected Services\ParksServiceReference\ParkService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ParkNewRef\ParkService2.xsd">
+    <None Include="Connected Services\ParksServiceReference\ParkService2.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ParkNewRef\" />
+    <WCFMetadataStorage Include="Connected Services\ParksServiceReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ParkNewRef\ParkService.disco" />
+    <None Include="Connected Services\ParksServiceReference\ParkService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ParkNewRef\configuration91.svcinfo" />
+    <None Include="Connected Services\ParksServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ParkNewRef\configuration.svcinfo" />
+    <None Include="Connected Services\ParksServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ParkNewRef\Reference.svcmap">
+    <None Include="Connected Services\ParksServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

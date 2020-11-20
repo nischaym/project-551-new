@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
+﻿using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace ParkDataAccess
 {
@@ -51,6 +48,61 @@ namespace ParkDataAccess
 
             return parksInformation;
 
+        }
+
+        public static DataSet GetParksWithOutConfig()
+        {
+            string connetionString = null;
+
+            SqlConnection connection;
+            SqlCommand command;
+            SqlDataReader dataReader;
+            DataTable dt = new DataTable();
+            DataSet parksDataSet = new DataSet();
+
+            connetionString = "Data Source=MIAL73808\\SQLEXPRESS;Integrated Security=True";
+            connection = new SqlConnection(connetionString);
+            string sql = "Select * from Parks";
+
+            //Open the connection
+            connection.Open();
+            command = new SqlCommand(sql, connection);
+            dataReader = command.ExecuteReader();
+            dt.Load(dataReader);
+            parksDataSet.Tables.Add(dt);
+            dataReader.Close();
+            command.Dispose();
+            connection.Close();
+
+            return parksDataSet;
+
+        }
+
+        public static DataSet GetParksWithConfig()
+        {
+            SqlConnection cnn;
+            string sql = null;
+            SqlCommand command;
+            SqlDataReader dataReader;
+
+            DataTable dt = new DataTable();
+            DataSet dsGetDemographicsReport = new DataSet();
+
+            var cs = ConfigurationManager.ConnectionStrings["ParksConnection_DEV"].ConnectionString;
+            cnn = new SqlConnection(cs);
+            sql = "Select * from Parks";
+
+            //Open the connection
+            cnn.Open();
+            command = new SqlCommand(sql, cnn);
+            dataReader = command.ExecuteReader();
+            dt.Load(dataReader);
+            dsGetDemographicsReport.Tables.Add(dt);
+            dataReader.Close();
+            command.Dispose();
+            cnn.Close();
+
+            return dsGetDemographicsReport;
         }
     }
 }

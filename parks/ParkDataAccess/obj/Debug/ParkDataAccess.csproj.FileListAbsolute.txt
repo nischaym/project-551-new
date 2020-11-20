@@ -4,3 +4,11 @@ C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csproj
 C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csproj.CoreCompileInputs.cache
 C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.dll
 C:\Users\jenni\source\repos\parks\ParkDataAccess\obj\Debug\ParkDataAccess.pdb
+C:\dev\project-551-new\parks\ParkDataAccess\bin\Debug\ParkDataAccess.dll
+C:\dev\project-551-new\parks\ParkDataAccess\bin\Debug\ParkDataAccess.pdb
+C:\dev\project-551-new\parks\ParkDataAccess\bin\Debug\System.Data.SqlClient.dll
+C:\dev\project-551-new\parks\ParkDataAccess\bin\Debug\System.Data.SqlClient.xml
+C:\dev\project-551-new\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csproj.CoreCompileInputs.cache
+C:\dev\project-551-new\parks\ParkDataAccess\obj\Debug\ParkDataAccess.csproj.CopyComplete
+C:\dev\project-551-new\parks\ParkDataAccess\obj\Debug\ParkDataAccess.dll
+C:\dev\project-551-new\parks\ParkDataAccess\obj\Debug\ParkDataAccess.pdb

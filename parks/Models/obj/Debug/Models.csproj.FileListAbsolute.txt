@@ -4,3 +4,8 @@ C:\Users\jenni\source\repos\parks\Models\obj\Debug\Models.csprojAssemblyReferenc
 C:\Users\jenni\source\repos\parks\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\jenni\source\repos\parks\Models\obj\Debug\Models.dll
 C:\Users\jenni\source\repos\parks\Models\obj\Debug\Models.pdb
+C:\dev\project-551-new\parks\Models\bin\Debug\Models.dll
+C:\dev\project-551-new\parks\Models\bin\Debug\Models.pdb
+C:\dev\project-551-new\parks\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\dev\project-551-new\parks\Models\obj\Debug\Models.dll
+C:\dev\project-551-new\parks\Models\obj\Debug\Models.pdb

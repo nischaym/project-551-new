@@ -16,9 +16,7 @@ namespace Business
             DataSet parksDataSet = new DataSet();
 
             // 2nd Assignment - Get Parks from DB with Config in Web.config file
-            // parksDataSet = ParkDA.GetParksWithoutDB();
-
-
+             //parksDataSet = ParkDA.GetParksWithoutDB();
 
             // From DB configured in Web.config
             //parksDataSet = ParkDA.GetParksWithConfig();
@@ -26,8 +24,9 @@ namespace Business
             // From DB hardcoded connection string
             //parksDataSet = ParkDA.GetParksWithOutConfig();
 
-            var parkService = new ParkNewRef.ParkServiceClient("BasicHttpBinding_IParkService");
-            parksDataSet = parkService.GetDataWithoutDB();
+            // 3rd Assignment - Service Layer
+            var parkService = new ParksServiceReference.ParkServiceClient();
+            parksDataSet = parkService.GetParksFromDBWithConfig();
 
             if (parksDataSet.Tables.Count > 0)
             {

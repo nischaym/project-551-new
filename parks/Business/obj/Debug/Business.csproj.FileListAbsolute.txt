@@ -10,3 +10,15 @@ C:\Users\jenni\source\repos\parks\Business\obj\Debug\Business.csproj.CopyComplet
 C:\Users\jenni\source\repos\parks\Business\obj\Debug\Business.dll
 C:\Users\jenni\source\repos\parks\Business\obj\Debug\Business.pdb
 C:\Users\jenni\source\repos\parks\Business\bin\Debug\Business.dll.config
+C:\dev\project-551-new\parks\Business\bin\Debug\Business.dll.config
+C:\dev\project-551-new\parks\Business\bin\Debug\Business.dll
+C:\dev\project-551-new\parks\Business\bin\Debug\Business.pdb
+C:\dev\project-551-new\parks\Business\bin\Debug\Models.dll
+C:\dev\project-551-new\parks\Business\bin\Debug\ParkDataAccess.dll
+C:\dev\project-551-new\parks\Business\bin\Debug\Models.pdb
+C:\dev\project-551-new\parks\Business\bin\Debug\ParkDataAccess.pdb
+C:\dev\project-551-new\parks\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\dev\project-551-new\parks\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\dev\project-551-new\parks\Business\obj\Debug\Business.csproj.CopyComplete
+C:\dev\project-551-new\parks\Business\obj\Debug\Business.dll
+C:\dev\project-551-new\parks\Business\obj\Debug\Business.pdb
